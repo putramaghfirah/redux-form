@@ -12,8 +12,6 @@ import {
 import { useDispatch } from 'react-redux';
 
 import { userAdded } from '../store/actions';
-// import { Unsubscribe } from '../store/store';
-// import { Unsubscribe } from '../store/store';
 import store from '../store/store';
 
 export function Register() {
@@ -87,7 +85,6 @@ export function Register() {
                 <Button type="submit" appearance="primary">
                   Create Account
                 </Button>
-                {/* <Button appearance="default">Cancel</Button> */}
               </ButtonToolbar>
             </FormGroup>
           </Form>
